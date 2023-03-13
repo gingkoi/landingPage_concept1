@@ -9,7 +9,7 @@ export default function NavBar() {
     setNav(!nav);
   };
   return (
-    <div className="font-poppin border-b-2 border-black xl:border-0 flex justify-between container mx-auto xl:py-7 py-5 px-3 items-center top-0 fixed xl:static z-20 bg-white">
+    <div className="font-poppin border-b-2 border-black xl:border-0 flex justify-between w-full xl:container mx-auto xl:py-7 py-5 px-3 items-center top-0 fixed xl:static z-20 bg-white">
       <div className={nav ? "block" : "hidden"}>
         <div className=" bg-white absolute z-10 top-0 left-0 w-full h-auto flex flex-col items-center py-6 space-y-3 rounded-b-3xl border-b-4 border-black">
           <a href="/" className=" hover:underline">
